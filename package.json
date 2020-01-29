@@ -1,6 +1,6 @@
 {
 	"name": "renovate-config-teal",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Renovate shareable config",
 	"main": "dist/index.js",
 	"author": "iCrawl <icrawltogo@gmail.com>",

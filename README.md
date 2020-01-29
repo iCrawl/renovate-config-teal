@@ -15,7 +15,7 @@
 ## Install
 
 ```bash
-yarn add -D renovate-config-teal
+pnpm i -D renovate-config-teal
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Add the Renovate config to your `package.json`:
 {
 	"name": "my-project",
 	...
-	"renovate-config": {
+	"renovate": {
 		"extends": ["teal"]
 	}
 }
