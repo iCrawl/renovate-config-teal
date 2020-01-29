@@ -1,0 +1,25 @@
+{
+	"name": "renovate-config-teal",
+	"version": "1.0.0",
+	"description": "Renovate shareable config",
+	"main": "dist/index.js",
+	"author": "iCrawl <icrawltogo@gmail.com>",
+	"license": "MIT",
+	"scripts": {},
+	"renovate-config": {
+		"default": {
+			"description": "Simple Renovate configuration",
+			"extends": [
+				"config:base",
+				":semanticCommits",
+				":semanticPrefixChore",
+				":preserveSemverRanges",
+				":disableRateLimiting",
+				":rebaseStalePrs",
+				":automergeMinor",
+				":automergePr",
+				":label(chore)"
+			]
+		}
+	}
+}
